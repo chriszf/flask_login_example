@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h1>Fish belonging to {{ g.user.name }}</h1>
+        <ul>
+    {% for f in fish %}
+    <li>{{f}}</li>
+    {% endfor %}
+        </ul>
+    </body>
+</html>
